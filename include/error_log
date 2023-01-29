@@ -1,0 +1,93 @@
+[06-May-2022 22:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('1', 'User #14902', 'http://chat.lea...', 'test', Array, false, '1')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('3', '1', 'test', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 22:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'User #43457', 'https://chat.le...', 'texto', Array, false, '5')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('7', '5', 'texto', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 22:58:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'User #43457', 'https://chat.le...', 'pruebo la app', Array, false, '5')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('7', '5', 'pruebo la app', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 22:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'User #43457', 'https://chat.le...', 'hola!', Array, false, '5')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('7', '5', 'hola!', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 23:03:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'User #48823', 'https://chat.le...', 'Hola amigo', Array, false, '6')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('8', '6', 'Hola amigo', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 23:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('department-2', 'User #48823', 'https://chat.le...', 'hola', Array, '2', '7')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('8', '7', 'hola', Array, '2', false, false, 'department-2')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 23:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('department-3', 'User #48823', 'https://chat.le...', 'ayuda', Array, '3', '8')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('8', '8', 'ayuda', Array, '2', false, false, 'department-3')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[06-May-2022 23:50:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(1834): sb_email_create('department-1', 'User #48823', 'https://chat.le...', 'ayuda<br><br><s...', false, false, '8')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(1640): sb_send_agents_notifications('ayuda', 'This message ha...', '8', false, Array, Array)
+#2 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(93): sb_update_conversation_department('8', '1', 'ayuda')
+#3 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 00:02:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('department-1', 'User #48823', 'https://chat.le...', 'ayuda', Array, '1', '8')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('8', '8', 'ayuda', Array, '2', false, false, 'department-1')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 07:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('1', 'User #60074', 'https://chat.le...', 'Test', Array, false, '9')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('9', '9', 'Test', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 07:57:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('1', 'User #60074', 'https://chat.le...', '\xF0\x9F\xA4\xA2', Array, false, '9')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('9', '9', '\xF0\x9F\xA4\xA2', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 07:57:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('1', 'User #60074', 'https://chat.le...', '????', Array, false, '9')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('9', '9', '????', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 08:02:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'User #60074', 'https://chat.le...', 'Cjat', Array, false, '10')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(115): sb_send_message('9', '10', 'Cjat', Array, '2', false, false, 'agents')
+#2 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[07-May-2022 16:38:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(2153): sb_email_create('agents', 'Guest 1683', 'https://chat.le...', 'boom', Array, false, '11')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/apps/messenger/functions.php(318): sb_send_message(10, '11', 'boom', Array, 2, Array)
+#2 /home/u500513276/domains/leadsto.link/public_html/chat/include/messenger.php(17): sb_messenger_listener(Array)
+#3 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480
+[15-May-2022 17:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sb_google_translate_auto() in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php:3480
+Stack trace:
+#0 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(1834): sb_email_create('11', 'Guest 1683', 'https://chat.le...', 'hey<br><br><spa...', false, false, '14')
+#1 /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php(1640): sb_send_agents_notifications('hey', 'This message ha...', '14', false, Array, Array)
+#2 /home/u500513276/domains/leadsto.link/public_html/chat/include/ajax.php(93): sb_update_conversation_department('14', '', 'hey')
+#3 {main}
+  thrown in /home/u500513276/domains/leadsto.link/public_html/chat/include/functions.php on line 3480

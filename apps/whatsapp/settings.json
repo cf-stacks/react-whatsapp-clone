@@ -1,0 +1,172 @@
+[
+  {
+    "type": "multi-input",
+    "id": "whatsapp-twilio",
+    "title": "Twilio settings",
+    "content": "Enter your Twilio account settings information.",
+    "help": "https://board.support/docs/#whatsapp",
+    "value": [
+      {
+        "type": "text",
+        "id": "whatsapp-twilio-user",
+        "title": "Account SID"
+      },
+      {
+        "type": "password",
+        "id": "whatsapp-twilio-token",
+        "title": "Token"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-twilio-sender",
+        "title": "Sender number"
+      },
+      {
+        "type": "button",
+        "id": "whatsapp-twilio-btn",
+        "title": "Configuration URL",
+        "button-text": "Get configuration URL",
+        "button-url": "#"
+      }
+    ]
+  },
+  {
+    "type": "multi-input",
+    "id": "whatsapp-360",
+    "title": "360dialog settings",
+    "content": "Enter your 360dialog account settings information.",
+    "help": "https://board.support/docs/#whatsapp",
+    "value": [
+      {
+        "type": "password",
+        "id": "whatsapp-360-key",
+        "title": "API key"
+      },
+      {
+        "type": "button",
+        "id": "whatsapp-360-button",
+        "title": "Synchronize",
+        "button-text": "Synchronize now",
+        "button-url": "#"
+      }
+    ]
+  },
+  {
+    "type": "multi-input",
+    "id": "whatsapp-sms",
+    "title": "Text message fallback",
+    "content": "Sends a text message if sending of the WhatsApp message fails. You can use text and the following merge fields: {conversation_url_parameter}, {message}, {recipient_name}, {recipient_email}.",
+    "help": "https://board.support/docs/#whatsapp-fallback",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "whatsapp-sms-active",
+        "title": "Active"
+      },
+      {
+        "type": "textarea",
+        "id": "whatsapp-sms-template",
+        "title": "Message template"
+      }
+    ]
+  },
+  {
+    "type": "textarea",
+    "id": "whatsapp-template",
+    "title": "Twilio template fallback",
+    "content": "Sends a WhatsApp Template notification if sending of the WhatsApp message fails. You can use text and the following merge fields: {conversation_url_parameter}, {recipient_name}, {recipient_email}.",
+    "help": "https://board.support/docs/#whatsapp-fallback"
+  },
+  {
+    "type": "multi-input",
+    "id": "whatsapp-template-360",
+    "title": "360dialog template fallback",
+    "content": "Sends a WhatsApp Template notification if sending of the WhatsApp message fails. You can use text and the following merge fields: {conversation_url_parameter}, {recipient_name}, {recipient_email}.",
+    "help": "https://board.support/docs/#whatsapp-fallback-360",
+    "value": [
+      {
+        "type": "text",
+        "id": "whatsapp-template-360-namespace",
+        "title": "Namespace"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-template-360-name",
+        "title": "Template name"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-template-360-language",
+        "title": "Template default language"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-template-360-parameters",
+        "title": "Custom parameters"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "id": "whatsapp-order-webhook",
+    "title": "Order webhook",
+    "content": "Send the WhatsApp order details to the URL provided."
+  },
+  {
+    "type": "number",
+    "id": "whatsapp-department",
+    "title": "Department ID",
+    "content": "Assign a departments to all conversations started from WhatsApp. Insert the department ID."
+  },
+  {
+    "type": "multi-input",
+    "id": "whatsapp-go",
+    "title": "GoWhatsApp provider service",
+    "content": "Custom service for communicating with WhatsApp account.",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "whatsapp-go-active",
+        "title": "Active"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-go-url",
+        "title": "Service URL"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-go-phone",
+        "title": "WhatsApp account phone number"
+      }
+    ]
+  },
+  {
+    "type": "multi-input",
+    "id": "whatsapp-gupshup",
+    "title": "Gupshup provider service",
+    "content": "Gupshup service for communicating with WhatsApp account.",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "whatsapp-gupshup-active",
+        "title": "Active"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-gupshup-phone",
+        "title": "Phone number"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-gupshup-app",
+        "title": "App name"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp-gupshup-api-key",
+        "title": "API key"
+      }
+    ]
+  }
+]

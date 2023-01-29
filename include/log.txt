@@ -1,0 +1,12 @@
+22:06:14 04:17:24
+Please pass message (JSON or plain text) 22:06:14 04:59:12
+Please pass message (JSON or plain text) 22:06:14 07:29:26 --> Please pass message (JSON or plain text) 22:06:14 07:31:19 --> {"channel":"whatsapp","source":"5491135333621","src.name":"businesstest","destination":"380661605081","message":{"type":"text","text":"123"}}
+22:06:14 07:31:19 --> Please pass message (JSON or plain text) 
+22:06:14 07:35:30 --> {"channel":"whatsapp","source":"5491135333621","src.name":"businesstest","destination":"380661605081","message":"{\"type\":\"text\",\"text\":\"qwer\"}"}
+22:06:14 07:35:30 --> Array
+22:06:14 07:44:15 REQ --> {"channel":"whatsapp","source":"5491135333621","src.name":"businesstest","destination":"380661605081","message":"{\"type\":\"image\",\"originalUrl\":\"https:\\\/\\\/chat.leadsto.link\\\/uploads\\\/14-06-22\\\/39754_\\u0411\\u0435\\u0437%20\\u043d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u044f.jpeg\",\"previewUrl\":\"https:\\\/\\\/chat.leadsto.link\\\/uploads\\\/14-06-22\\\/39754_\\u0411\\u0435\\u0437%20\\u043d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u044f.jpeg\"}"}
+22:06:14 07:44:15 RES <-- {"status":"submitted","messageId":"7820f280-7f83-4785-85eb-f7286e8113b8"}
+22:06:14 07:47:56 REQ --> {"channel":"whatsapp","source":"5491135333621","src.name":"businesstest","destination":"","message":"{\"type\":\"text\",\"text\":\"aaa\"}"}
+22:06:14 07:47:56 RES <-- {"status":"error","message":"Invalid Context ID Forwarded"}
+22:06:14 08:21:19 REQ --> {"channel":"whatsapp","source":"5491135333621","src.name":"businesstest","destination":"5491167461999","message":"{\"type\":\"text\",\"text\":\"WhatsApp Business API\"}"}
+22:06:14 08:21:19 RES <-- {"status":"submitted","messageId":"7642b200-b4b1-4d58-a893-76f587c6694d"}

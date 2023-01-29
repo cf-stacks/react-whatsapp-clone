@@ -1,0 +1,274 @@
+[
+  {
+    "type": "checkbox",
+    "id": "dialogflow-active",
+    "title": "Active",
+    "content": "Activate the Dialogflow bot."
+  },
+  {
+    "type": "button",
+    "id": "dialogflow-button",
+    "title": "Synchronization",
+    "content": "Click the button to start the Dialogflow synchronization.",
+    "button-text": "Start synchronization",
+    "button-url": "#",
+    "help": "https://board.support/docs/#dialogflow-sync"
+  },
+  {
+    "type": "text",
+    "id": "dialogflow-token",
+    "title": "Refresh token",
+    "content": "You will get this code by completing the Dialogflow synchronization."
+  },
+  {
+    "type": "text",
+    "id": "dialogflow-project-id",
+    "title": "Project ID or Agent Name",
+    "content": "Enter the Project ID of your Dialogflow ES agent, or the Agent Name of your Dialogflow CX agent.",
+    "help": "https://board.support/docs/#dialogflow-sync"
+  },
+  {
+    "type": "select",
+    "id": "dialogflow-location",
+    "title": "Location",
+    "content": "Choose the location or region of your agent. This setting is optional if your agent location is global.",
+    "value": [
+      [ "", "Global" ],
+      [ "us-central1-", "us-central1" ],
+      [ "northamerica-northeast1-", "northamerica-northeast1" ],
+      [ "us-east1-", "us-east1" ],
+      [ "us-west1-", "us-west1" ],
+      [ "europe-west1-", "europe-west1" ],
+      [ "europe-west2-", "europe-west2" ],
+      [ "australia-southeast1-", "australia-southeast1" ],
+      [ "asia-northeast1-", "asia-northeast1" ]
+    ]
+  },
+  {
+    "type": "select",
+    "id": "dialogflow-edition",
+    "title": "Edition",
+    "content": "Choose the Dialogflow edition used by your agent.",
+    "value": [
+      [ "es", "Dialogflow ES" ],
+      [ "cx", "Dialogflow CX" ]
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-welcome",
+    "title": "Welcome Intent",
+    "content": "Trigger the Dialogflow Welcome Intent for new visitors when the welcome message is active."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-multilingual",
+    "title": "Multilingual",
+    "content": "Activate the chatbot multilingual feature."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-language-detection",
+    "title": "Language detection",
+    "content": "Detect the language of the user' messages and change the user language and Dialogflow agent language accordingly, if available, otherwise, show a fallback message. You can use the following merge fields in the message: {language_name}.",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-language-detection-active",
+        "title": "Active"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-language-detection-message",
+        "title": "Message"
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "google-translation",
+    "title": "Automatic translation",
+    "content": "Automatically translates user messages into agent language and agent messages into user language.",
+    "help": "https://board.support/docs/#dialogflow-translation"
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-timetable",
+    "title": "Disable during office hours",
+    "content": "Enable the chatbot outside of scheduled office hours only."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-disable-tickets",
+    "title": "Disable for the tickets area",
+    "content": "Disable the chatbot for the tickets area."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-human-takeover",
+    "title": "Human takeover",
+    "content": "If the chatbot doesn't understand a user's question, forwards the conversation to an agent.",
+    "help": "https://board.support/docs/#dialogflow-human-takeover",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-human-takeover-active",
+        "title": "Active"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-human-takeover-auto",
+        "title": "Automatic human takeover"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-human-takeover-message",
+        "title": "Message"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-human-takeover-message-confirmation",
+        "title": "Confirmation message"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-human-takeover-confirm",
+        "title": "Confirm button text"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-human-takeover-cancel",
+        "title": "Cancel button text"
+      }
+    ]
+  },
+  {
+    "type": "number",
+    "id": "dialogflow-bot-delay",
+    "title": "Bot response delay",
+    "content": "Add a delay (ms) to the bot's responses. Default is 2000."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-smart-reply",
+    "title": "Smart Reply",
+    "content": "Follows a conversation between a human agent and an end user and provide response suggestions to the human agent in real-time.",
+    "help": "https://board.support/docs/#smart-reply",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-smart-reply-active",
+        "title": "Active"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-smart-reply-language-detection",
+        "title": "Language detection"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-smart-reply-profile",
+        "title": "Conversation profile"
+      },
+      {
+        "type": "button",
+        "id": "dialogflow-smart-reply-generate",
+        "title": "Conversations data",
+        "button-url": "#",
+        "button-text": "Generate conversations data"
+      }
+    ]
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-google-search",
+    "title": "Google search",
+    "content": "Let the bot search on Google to find answers to user questions.",
+    "help": "https://board.support/docs/#google-search",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-google-search-active",
+        "title": "Active"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-google-search-spelling-active",
+        "title": "Spelling correction"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-google-search-id",
+        "title": "Search engine ID"
+      },
+      {
+        "type": "password",
+        "id": "dialogflow-google-search-key",
+        "title": "Api key"
+      },
+      {
+        "type": "select-checkbox",
+        "id": "dialogflow-google-search-entities",
+        "title": "Entities",
+        "value": [
+          [ "PERSON", "Person" ],
+          [ "LOCATION", "Location" ],
+          [ "ORGANIZATION", "Organization" ],
+          [ "EVENT", "Event" ],
+          [ "WORK_OF_ART", "Artwork" ],
+          [ "CONSUMER_GOOD", "Consumer product" ],
+          [ "PHONE_NUMBER", "Phone number" ],
+          [ "ADDRESS", "Address" ],
+          [ "DATE", "Date" ],
+          [ "NUMBER", "Number" ],
+          [ "PRICE", "Price" ]
+        ]
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-send-user-details",
+    "title": "Send user details",
+    "content": "Send the user details of the registration form and email rich messages to Dialogflow."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-email-piping",
+    "title": "Reply to user emails",
+    "content": "Allow the chatbot to reply to the user's emails if the answer is known and email piping is active."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-sms",
+    "title": "Reply to user text messages",
+    "content": "Allow the chatbot to reply to the user's text messages if the answer is known."
+  },
+  {
+    "type": "repeater",
+    "id": "dialogflow-departments",
+    "title": "Departments linking",
+    "content": "Set a dedicated Dialogflow agent for each department.",
+    "help": "https://board.support/docs/#dialogflow-departments",
+    "items": [
+      {
+        "type": "number",
+        "name": "Department ID",
+        "id": "dialogflow-departments-id"
+      },
+      {
+        "type": "text",
+        "name": "Project ID",
+        "id": "dialogflow-departments-agent"
+      }
+    ]
+  },
+  {
+    "type": "button",
+    "id": "dialogflow-saved-replies",
+    "title": "Add Intents to saved replies",
+    "content": "Add the Dialogflow Intents to the saved replies.",
+    "button-text": "Add Intents",
+    "button-url": "#"
+  }
+]
